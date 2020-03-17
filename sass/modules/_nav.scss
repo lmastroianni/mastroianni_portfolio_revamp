@@ -1,0 +1,73 @@
+
+
+@media screen and (min-width: 740px) {
+
+    #mainNav
+{
+ top: 0;
+ right: 40px;
+ position: fixed; 
+ 
+
+}
+
+#mainNav ul
+{
+  list-style-type: none;
+  width: 100%;
+  
+}
+
+
+
+#mainNav ul li a{
+  text-decoration: none;
+  color: #E3DCC6;
+  font-family: Futura, bold;
+ 
+}
+
+
+
+.deskNav 
+  {
+    display: contents;
+  }
+
+  .deskNav ul 
+  {
+display: flex;
+flex-direction: row;
+margin: 10px;
+padding: 10px;
+  }
+
+  .deskNav ul li
+  {
+    margin: 15px;
+    
+  }
+
+  .deskNav ul li 
+  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px; 
+  }
+
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+
+    #mainNav
+    {
+        margin-right: 100px;
+    }
+
+}
+
+
+

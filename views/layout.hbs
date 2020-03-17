@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    {{!-- <link rel="icon" type="image/png" size="16x16" href="images/favcon.ico"/> --}}
+
+    <!-- import waypoint and greensock -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>Lucas Mastroianni</title>
+</head>
+
+<main class="container">
+
+  <!-- NAV -->
+
+<nav id="mainNav">
+              
+  <h2 class="hidden">Main Navigation</h2>
+    <nav class="deskNav" id="navigation">
+  <h2 class="hidden">Desktop Navigation</h2>
+      <div id="deskCon">
+     <div class="fill">
+        <ul id="deskMenu">
+        <li><a href="#section-1">PORTFOLIO</a></li>
+        <li><a href="#section-2">ABOUT</a></li>
+        <li><a href="#section-3">CONTACT</a></li>
+        <div class="line"></div>
+     </ul>
+     </div>
+                        
+
+   </nav>
+   </nav>
+
+<!-- BANNER SECTION -->
+
+ <section class="top-banner">
+
+ <div class="logoHeader">
+                <img src="images/red.svg" alt="Lucas Logo" height="50" width="50" id="logo">
+            </div>
+
+
+ 
+    <div id="section-1">
+    
+      <img id="mobile_image" src="images/mobile_avatar.png" height="60%" width="60%" alt="bio image" class="bio" class="responsive">
+<div id ="hidden deskAvatar"> 
+      <img src="images/desktop_avatar.png" alt="Desktop avatar" height="100%" width="100%" class="responsive">
+    </div>
+    </div>
+
+      <div id="text">
+      <h1>LUCAS MASTROIANNI</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+      Nulla, distinctio nobis magnam ab voluptatem, obcaecati 
+      soluta iste odio expedita minus dicta, aut nihil vel assumenda
+       odit enim perferendis repudiandae eligendi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+      Nulla, distinctio nobis magnam ab voluptatem, obcaecati 
+      soluta iste odio expedita minus dicta, aut nihil vel assumenda
+       odit enim perferendis repudiandae eligendi.</p>
+      <a class="btn">CHAT</a>
+      </div>
+       </div>
+  </section>
+
+
+<!-- PORTFOLIO SECTION -->
+
+<section class="portfolioPieces">  
+                
+                <h3>MY WORK</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Et quod eligendi laudantium sequi veritatis, 
+                   exercitationem iste adipisci aut enim labore nemo saepe maiores eum ipsam, 
+                  possimus earum minus, debitis dolor!</p>
+
+                        <section class="boxes" >
+                          {{#each data}}
+                          <div id="section-2">
+                               <div id="box1" >
+                              <img src="images/{{Images}}" width="80%" height="75%" class="responsive {{1Type}}"> 
+                              
+                              <span class="see-more" class="data" data-target="{{ID}}">READ MORE</span>
+                          <!--type1 is for portoflio functionality-->
+                            </div>
+                            </div>
+                            
+                            {{/each}} 
+  
+          </section>
+        </section>
+
+
+<!-- CONTACT SECTION -->
+
+
+  <section class="contact" id="section-3">
+            <h3>LET'S CHAT</h3>
+            
+   <section class="contact-form boxContact">
+        <div class="text">
+          <label>Full Name :</label>
+          <input type="text" name="name" value="" placeholder="Enter Your Name">
+        </div>
+  
+        <div class="text">
+          <label>Email :</label>
+          <input type="email" email="email" value="" placeholder="Email">
+        </div>
+  
+        <div class="text">
+          <label>Message :</label>
+          <textarea placeholder="Enter Your Message"></textarea>
+        </div>
+
+        <span class="btn2">SEND</span>
+        
+  
+      </section>
+        </section>
+
+
+     
+        
+        
+<article class="popover">
+   <div id="close">x</div> 
+  <h3 class="Headings"></h3>
+  <p class="Copy"></p>
+  <p class="Tools"></p>
+
+</article>
+        
+
+    </main>
+
+     <!--FOOTER -->
+     <footer>
+
+     <div id="social">
+      <a href="https://www.instagram.com/lukemastro14/" target="_blank"><img src="/images/instagram.svg" alt="Instagram" class="socialIcon"></a>
+
+      <a href="https://github.com/lmastroianni" target="_blank"><img src="/images/github.svg" alt="Github" class="socialIcon"></a>
+
+      <p>© Copyright 2020 Lucas Mastroianni. All Rights Reserved.</p>
+    </div>
+
+      
+
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

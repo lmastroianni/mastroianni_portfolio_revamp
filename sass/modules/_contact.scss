@@ -1,0 +1,83 @@
+.contact
+{
+    height: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#social p
+{
+    color: #F5F1E2;
+    display: flex;
+    flex: end;
+    font-family: Futura, bold;
+}
+
+.contact h3{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-form label
+{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: $text;
+  display: flex;
+  flex: start;
+  margin-left: 20px;
+}
+
+.contact-form input textarea
+{
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.contact-form input[type=placeholder]
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-form placeholder
+{
+  font-family:  'Roboto', sans-serif;
+}
+
+.contact-form input
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid $heading-color;
+}
+
+
+.contact-form textarea
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid $heading-color;
+}
+
+.contact
+{
+    background-color: #F5F1E2;
+}
+
+@media screen and (min-width: 960px) {
+
+.contact h3
+{
+    padding: 20px;
+}
+
+#social p
+{
+    margin-left: 850px;
+}
+
+}

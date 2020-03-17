@@ -1,0 +1,34 @@
+footer { color: $text;
+    text-align: center;
+    background-color: $text;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    font-size: 14px;
+    
+}
+
+#social{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+}
+
+#social img{
+    height: 50px;
+    margin: 0 10px 0 10px;
+}
+
+.socialIcon:hover{
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+@media screen and (min-width: 786px){
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+}

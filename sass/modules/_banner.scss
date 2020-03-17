@@ -1,0 +1,100 @@
+#deskAvatar
+{
+    display: none;
+}
+
+
+.top-banner
+{
+  width: 100%;
+  height: 685px;
+  background-color: $heading-color;
+}
+
+
+.top-banner p
+{
+ color: $text;
+ padding-left: 20px;
+ padding-right: 20px;
+ line-height: 22px;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+.top-banner h1
+{
+ color: $body-bg;
+ font-family: futura, bold;
+ font-size: 25px;
+}
+
+.section-1
+{
+    margin-top: 300px;
+}
+
+.logoHeader
+{
+	// width: 220px;
+	padding: 20px;
+    margin: 0 auto;
+    margin-left: 30px;
+
+}
+
+@media screen and (min-width: 740px) {
+
+    .logoHeader{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+
+    #section-1 img {
+        float: left;
+        height: 500px;
+        width: 450px;
+        margin-left: 10px;
+        margin-top: 200px;
+        }
+
+    #text {
+        float: right;
+        margin-top: 250px;
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (min-width: 960px) {
+   
+    .top-banner h1
+    {
+        font-size: 36px;
+    }
+    .top-banner p
+    {
+        font-size: 22px;
+        line-height: 25px;
+        font-weight: 2px;
+        
+    }
+
+    #text
+    {
+        margin-right: 130px;
+    }
+
+    #mobile_image
+    {
+        display: none;
+    }
+
+    #deskAvatar
+    {
+        display: contents;
+    }
+}

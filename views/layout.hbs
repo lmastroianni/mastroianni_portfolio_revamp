@@ -27,14 +27,14 @@
     <nav class="deskNav" id="navigation">
   <h2 class="hidden">Desktop Navigation</h2>
       <div id="deskCon">
-     <div class="fill">
+
         <ul id="deskMenu">
         <li><a href="#section-1">PORTFOLIO</a></li>
         <li><a href="#section-2">ABOUT</a></li>
         <li><a href="#section-3">CONTACT</a></li>
-        <div class="line"></div>
      </ul>
      </div>
+
                         
 
    </nav>
@@ -52,9 +52,9 @@
  
     <div id="section-1">
     
-      <img id="mobile_image" src="images/mobile_avatar.png" height="60%" width="60%" alt="bio image" class="bio" class="responsive">
-<div id ="hidden deskAvatar"> 
-      <img src="images/desktop_avatar.png" alt="Desktop avatar" height="100%" width="100%" class="responsive">
+      <img id="mobileAvatar" src="images/mobile_avatar.png" height="60%" width="60%" alt="bio image" class="bio" class="responsive">
+<div id ="deskAvatar"> 
+      <img src="images/desktop_avatar1.png" alt="Desktop avatar" height="70%" width="70%" class="responsive">
     </div>
     </div>
 
@@ -68,10 +68,30 @@
       soluta iste odio expedita minus dicta, aut nihil vel assumenda
        odit enim perferendis repudiandae eligendi.</p>
       <a class="btn">CHAT</a>
+      <p>View My Resume!</p>
       </div>
        </div>
   </section>
 
+  <!--Featured Products -->
+
+  <section class="featuredProjects">
+
+    <h3>Featured Projects</h3>
+    
+    {{!-- <section class="features">
+      {{#each data}}
+       <div id="section-2">
+            <div id="box1" >
+            <img src="images/{{Images}}" width="80%" height="75%" class="responsive {{1Type}}"> 
+      </div>
+        </div>
+    </section> --}}
+
+
+    
+    <span class="see-more" class="data" data-target="{{ID}}">READ MORE</span>
+  </section>
 
 <!-- PORTFOLIO SECTION -->
 
@@ -79,8 +99,7 @@
                 
                 <h3>MY WORK</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                   Et quod eligendi laudantium sequi veritatis, 
-                   exercitationem iste adipisci aut enim labore nemo saepe maiores eum ipsam, 
+                   Et quod eligendi laudantium sequi veritatis, exercitationem iste adipisci aut enim labore nemo saepe maiores eum ipsam, 
                   possimus earum minus, debitis dolor!</p>
 
                         <section class="boxes" >
@@ -150,6 +169,7 @@
       <a href="https://www.instagram.com/lukemastro14/" target="_blank"><img src="/images/instagram.svg" alt="Instagram" class="socialIcon"></a>
 
       <a href="https://github.com/lmastroianni" target="_blank"><img src="/images/github.svg" alt="Github" class="socialIcon"></a>
+      <a href="https://www.linkedin.com/in/lucas-mastroianni-74bab01a3/" target="_blank"><img src="/images/linkedin.svg" alt="Linkedn" class="socialIcon"></a>
 
       <p>© Copyright 2020 Lucas Mastroianni. All Rights Reserved.</p>
     </div>

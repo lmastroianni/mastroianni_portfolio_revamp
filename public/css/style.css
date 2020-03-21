@@ -28,11 +28,17 @@
   .deskNav ul li {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .deskNav a:hover {
+    background-color: grey; } }
 @media screen and (min-width: 960px) {
   #mainNav {
     margin-right: 100px; } }
 #deskAvatar {
+  display: none; }
+
+#deskCon {
   display: none; }
 
 .top-banner {
@@ -45,7 +51,7 @@
   padding-left: 20px;
   padding-right: 20px;
   line-height: 22px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .top-banner h1 {
   color: #E3DCC6;
@@ -57,8 +63,7 @@
 
 .logoHeader {
   padding: 20px;
-  margin: 0 auto;
-  margin-left: 30px; }
+  margin: 0 auto; }
 
 @media screen and (min-width: 740px) {
   .logoHeader {
@@ -68,37 +73,40 @@
 
   #section-1 img {
     float: left;
-    height: 500px;
-    width: 450px;
+    width: 50%;
     margin-left: 10px;
-    margin-top: 200px; }
+    margin-top: 130px; }
 
   #text {
     float: right;
-    margin-top: 250px;
-    width: 40%; } }
+    margin-top: 150px;
+    width: 40%; }
+
+  #deskCon {
+    display: contents; } }
 @media screen and (min-width: 960px) {
   .top-banner h1 {
-    font-size: 36px; }
+    font-size: 30px; }
 
   .top-banner p {
     font-size: 22px;
-    line-height: 25px;
-    font-weight: 2px; }
+    line-height: 28px; }
 
   #text {
     margin-right: 130px; }
 
-  #mobile_image {
+  #mobileAvatar {
     display: none; }
 
   #deskAvatar {
-    display: contents; } }
+    display: contents; }
+
+  #deskAvatar img {
+    margin-top: 70px; } }
 .portfolioPieces h3 {
   font-size: 25px;
   font-family: futura, bold;
-  color: #9FA47B;
-  padding: 50px; }
+  color: #9FA47B; }
 
 .portfolioPieces p {
   color: #5C5C5C;
@@ -220,7 +228,7 @@
     background-color: #eee;
     box-shadow: 5px 5px 8px 2px #000000;
     width: 90%;
-    height: 50%;
+    height: 80%;
     z-index: 1;
     border-radius: 8px;
     padding: 4px;
@@ -232,7 +240,7 @@
   padding: 12px 18px;
   border-radius: 8px;
   color: black;
-  background-color: #2C3C50;
+  background-color: #9FA47B;
   margin-top: 8px;
   font-family: 'Roboto', sans-serif, bold;
   width: 30%;
@@ -249,7 +257,7 @@
   background-color: #eee;
   box-shadow: 5px 5px 8px 2px #000000;
   width: 90%;
-  height: 50%;
+  height: 90%;
   z-index: 1;
   border-radius: 8px;
   padding: 4px;
@@ -267,7 +275,7 @@
   background-color: #eee;
   box-shadow: 5px 5px 8px 2px #000000;
   width: 90%;
-  height: 50%;
+  height: 90%;
   z-index: 1;
   border-radius: 8px;
   padding: 4px;
@@ -398,6 +406,10 @@ h3 {
     font-size: 44px; }
 
   .contact h3 {
-    font-size: 44px; } }
+    font-size: 44px; }
+
+  .see-more {
+    margin-top: 10px;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

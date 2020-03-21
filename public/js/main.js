@@ -75,9 +75,24 @@ const seeMoreButtons = document.querySelectorAll('.see-more'),
 
 			document.querySelector('.popover #close').addEventListener("click",closePopover);
 
+/// SCROLL ////
 
-
-			// ON SCROLL NAV
+// var myNav = document.getElementById('mynav');
+// window.onscroll = function () { 
+//     "use strict";
+//     if (document.body.scrollTop >= 200 ) {
+//         myNav.classList.add("nav-colored");
+//         myNav.classList.remove("nav-transparent");
+//     } 
+//     else {
+//         myNav.classList.add("nav-transparent");
+//         myNav.classList.remove("nav-colored");
+// 	}
+	
+// 	// if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 )
+// };
+			  
+			  
 
 			
 			

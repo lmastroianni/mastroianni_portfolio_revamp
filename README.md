@@ -2,7 +2,7 @@
 *Website runs on localhost:3000 for MAC and PC*
 
 
-Live Site (Heroku) - https://mastro-portfolio.herokuapp.com/ (not working consistently so pushed up with old config info)
+Live Site (Heroku) - 
 
 
 # Getting Started

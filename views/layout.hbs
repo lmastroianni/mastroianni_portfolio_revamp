@@ -29,8 +29,8 @@
       <div id="deskCon">
 
         <ul id="deskMenu">
-        <li><a href="#section-1">PORTFOLIO</a></li>
-        <li><a href="#section-2">ABOUT</a></li>
+        <li><a href="#section-1">ABOUT</a></li>
+        <li><a href="#section-2">PORTFOLIO</a></li>
         <li><a href="#section-3">CONTACT</a></li>
      </ul>
      </div>
@@ -73,29 +73,29 @@
        </div>
   </section>
 
-  <!--Featured Products -->
-
-  <section class="featuredProjects">
-
-    <h3>Featured Projects</h3>
-    
-    {{!-- <section class="features">
-      {{#each data}}
-       <div id="section-2">
-            <div id="box1" >
-            <img src="images/{{Images}}" width="80%" height="75%" class="responsive {{1Type}}"> 
-      </div>
-        </div>
-    </section> --}}
-
-
-    
-    <span class="see-more" class="data" data-target="{{ID}}">READ MORE</span>
-  </section>
 
 <!-- PORTFOLIO SECTION -->
 
 <section class="portfolioPieces">  
+
+               <h3>Featured Projects</h3>
+               <section class="boxes" >
+                          {{#each featured }}
+                          {{#each data }}
+                          <div id="section-2">
+                               <div id="box1" >
+                              <img src="images/{{Images}} "width="80%" height="75%" class="responsive {{1Type}}"> 
+                              
+                              <span class="see-more" class="data" data-target="{{1}}">READ MORE</span>
+                          <!--type1 is for portoflio functionality-->
+                            </div>
+                            </div>
+                            
+                            {{/each}} 
+  
+          </section>
+               
+               
                 
                 <h3>MY WORK</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -106,7 +106,7 @@
                           {{#each data}}
                           <div id="section-2">
                                <div id="box1" >
-                              <img src="images/{{Images}}" width="80%" height="75%" class="responsive {{1Type}}"> 
+                              <img src="images/{{Images}} "width="80%" height="75%" class="responsive {{1Type}}"> 
                               
                               <span class="see-more" class="data" data-target="{{ID}}">READ MORE</span>
                           <!--type1 is for portoflio functionality-->

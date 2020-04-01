@@ -14,7 +14,7 @@ const sql = require('../utils/sql');
 router.get('/', (req, res) => {
   
 
-  let query = "SELECT ID, Images FROM tbl_content";
+  let query = "SELECT ID, Images, Features FROM tbl_content";
 
  
 
@@ -23,8 +23,19 @@ router.get('/', (req, res) => {
 
     console.log(result); // this should be the database row
 
+    //featured items with value of 1 will be passed trough
+    //do i list all images in array?
+    //first attempt
+    let featured = results[0].filter(item => item.featured === 1);
+    
+  
+    console.log(featured);
+    
 
-    res.render("layout",{data:result}); // send that row back to the calling function
+    // {data: result, featured: featured}
+
+
+    res.render("layout",{data:result,featured}); // send that row back to the calling function
   })
 })
 

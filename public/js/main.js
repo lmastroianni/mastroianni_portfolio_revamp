@@ -26,19 +26,23 @@ console.log("Java Script Linked Up");
 const seeMoreButtons = document.querySelectorAll('.see-more'),
         popOver = document.querySelector('.popover');
 
-		function buildPopover(data, el) {
+		function buildPopover(data) {
             popOver.querySelector(".Headings").textContent = ` ${data.Headings}`;
 			popOver.querySelector(".Copy").textContent = ` ${data.Copy}`;
 			popOver.querySelector(".Tools").textContent = `Tools: ${data.Tools}`;
+
+			let popOverVideos = popOver.querySelector("video");
+		if (data.Videos) {
+			popOverVideos.src = `video/${data.Videos}`;
+			popOverVideos.style.visibility = "visible";
+		}else {
+			popOverVideos.style.visibility = "hidden";
+		}
             
-            
-   
             // SHOW POPOVER
             popOver.classList.add('show-popover');
 			// el.appendChild(popOver);
-
-
-			// CLOSE POPOVER
+			
 		}
 
 		function closePopover(){

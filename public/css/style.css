@@ -10,7 +10,7 @@
 
   #mainNav ul li a {
     text-decoration: none;
-    color: #E3DCC6;
+    color: #5C5C5C;
     font-family: Futura, bold; }
 
   .deskNav {
@@ -28,10 +28,7 @@
   .deskNav ul li {
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 20px; }
-
-  .deskNav a:hover {
-    background-color: grey; } }
+    font-size: 20px; } }
 @media screen and (min-width: 960px) {
   #mainNav {
     margin-right: 100px; } }
@@ -123,6 +120,13 @@
     display: flex;
     flex-wrap: wrap; }
 
+  #section-3 {
+    min-height: 100px;
+    background: #F5F1E2;
+    flex: calc(100% / 2);
+    text-align: center;
+    flex-direction: row; }
+
   #section-2 {
     min-height: 100px;
     background: #F5F1E2;
@@ -137,7 +141,10 @@
     height: 100%; }
 
   .portfolioPieces p {
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  #section-3 img {
+    margin: 0 auto; } }
 .contact {
   height: 480px;
   width: 100%;
@@ -194,46 +201,10 @@
 
   #social p {
     margin-left: 850px; } }
-.show-popover {
-  display: block !important; }
-
-.show-popover {
-  display: contents;
-  position: fixed;
-  top: 10%;
-  left: 7%;
-  background-color: #eee;
-  box-shadow: 5px 5px 8px 2px #000000;
-  width: 90%;
-  height: 75%;
-  z-index: 1;
-  border-radius: 8px;
-  padding: 4px;
-  margin: 0 auto;
-  color: #2C3C50; }
-
 @media screen and (min-width: 960px) {
   .about p {
     font-size: 20px;
-    padding: 5px; }
-
-  .show-popover {
-    display: block !important; }
-
-  .show-popover {
-    display: contents;
-    position: fixed;
-    top: 10%;
-    left: 7%;
-    background-color: #eee;
-    box-shadow: 5px 5px 8px 2px #000000;
-    width: 90%;
-    height: 75%;
-    z-index: 1;
-    border-radius: 8px;
-    padding: 4px;
-    margin: 0 auto;
-    color: #2C3C50; } }
+    padding: 5px; } }
 /* button for LB */
 .see-more {
   display: block;
@@ -249,21 +220,6 @@
   color: white;
   /*popover on mobile*/ }
 
-.popover {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  background-color: #eee;
-  box-shadow: 5px 5px 8px 2px #000000;
-  width: 90%;
-  height: 75%;
-  z-index: 1;
-  border-radius: 8px;
-  padding: 4px;
-  margin: 0 auto;
-  color: #2C3C50; }
-
 .show-popover {
   display: block !important; }
 
@@ -272,15 +228,14 @@
   position: fixed;
   top: 10%;
   left: 7%;
-  background-color: white;
+  background-color: #eee;
   box-shadow: 5px 5px 8px 2px #000000;
   width: 90%;
   height: 75%;
   z-index: 1;
   border-radius: 8px;
   padding: 4px;
-  margin: 0 auto;
-  color: #2C3C50; }
+  margin: 0 auto; }
 
 .show-popover h3 {
   font-size: 30px;
@@ -353,7 +308,8 @@ main {
 h3 {
   font-family: Futura, bold;
   color: #9FA47B;
-  font-size: 25px; }
+  font-size: 25px;
+  text-align: center; }
 
 .btn2 {
   font-size: 15px;

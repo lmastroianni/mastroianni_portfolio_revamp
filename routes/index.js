@@ -42,7 +42,7 @@ router.get('/', (req, res) => {
 
 router.get('/svgdata/:id', (req, res) => {
 
-  let query = `SELECT Headings, Copy, Tools FROM tbl_content WHERE ID="${req.params.id}"`;
+  let query = `SELECT Headings, Copy, Tools, Videos FROM tbl_content WHERE ID="${req.params.id}"`;
 
   console.log("id: ", req.params.id);
 

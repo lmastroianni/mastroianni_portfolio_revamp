@@ -72,6 +72,11 @@ h3
   color: white; 
 }
 
+.btn2:hover
+{
+  background-color: $text;
+}
+
 .btn
 {
   display: block; 
@@ -85,6 +90,17 @@ h3
   text-align: center;
   margin: 0 auto;
   color: $text; 
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: $accent-color;
+  color: $body-bg;
+}
+
+.see-more:hover{
+  background-color: $accent-color;
+  color: white;
 }
 
 

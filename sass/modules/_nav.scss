@@ -55,6 +55,10 @@ padding: 10px;
     font-size: 20px; 
   }
 
+  #deskMenu li a:hover{
+    transition: 0.2s ease;
+    color: #b23737;
+  }
   // .deskNav a:hover
   // {
   //   background-color: grey;

@@ -61,15 +61,15 @@
 
     <div id="text">
       <h1>LUCAS MASTROIANNI</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Nulla, distinctio nobis magnam ab voluptatem, obcaecati
-        soluta iste odio expedita minus dicta, aut nihil vel assumenda
-        odit enim perferendis repudiandae eligendi. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Nulla, distinctio nobis magnam ab voluptatem, obcaecati
-        soluta iste odio expedita minus dicta, aut nihil vel assumenda
-        odit enim perferendis repudiandae eligendi.</p>
-      <a class="btn">CHAT</a>
-      <p>View My Resume!</p>
+      <p>A video editor and
+                    web designer from Dorchester, Ontario. I am a huge sports fan and a die hard Toronto Maple Leafs fan.
+                    
+                    I love advertisement, media, and ultimately how the human
+                    brain perceives these things and how I can use creativity and
+                    innovation to find ways to best influence and satisfy a user or
+                    customer. Whether it is through video content or a project for the web, I am
+                    passionate about producing content of the utmost quality and telling a story in an exceptional way.</p>
+      <a href="https://docs.google.com/document/d/1ND28lykO7AhYgNN0s1wQqm7vk9fMIbqYKSZRZTQynpE/edit?usp=sharing" target="_blank"class="btn">View My Resumé!</a>
     </div>
     </div>
   </section>
@@ -79,7 +79,7 @@
 
   <section class="portfolioPieces">
 
-    <h3>CURRENT FEATURED PROJECTS</h3>
+    <h3>FEATURED PROJECTS</h3>
 
       <!-- this is the new section showing the featured items -->
        <section class="boxes">
@@ -98,14 +98,16 @@
       </section>
 
    
-
-<section class="boxes">
-
-    <h3>MY WORK</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+<h3>MY WORK</h3>
+{{!-- 
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Et quod eligendi laudantium sequi veritatis, exercitationem iste adipisci aut enim labore nemo saepe maiores eum
       ipsam,
-      possimus earum minus, debitis dolor!</p>
+      possimus earum minus, debitis dolor!</p> --}}
+<section class="boxes">
+
+    
+   
 
    
       {{#each data}}
@@ -120,8 +122,17 @@
 
       {{/each}}
 
+     
+
    
   </section>
+
+     <div id="demoReel">
+        <h3>2020 DEMO REEL</h3>
+        <p>A collection of some of my work over the past year, check it out!</p>
+        <a href=""></a>
+        <video src="video/demo_reel.mp4" controls></video>
+      </div>
 
 
   <!-- CONTACT SECTION -->
@@ -129,6 +140,7 @@
 
   <section class="contact" id="section-3">
     <h3>LET'S CHAT</h3>
+    
 
     <section class="contact-form boxContact">
       <div class="text">

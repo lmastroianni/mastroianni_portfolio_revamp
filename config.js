@@ -10,7 +10,7 @@
 // module.exports = config;
 
 const config = {
-    host: "us-cdbr-iron-east-01.cleardb.net ",
+    host: "us-cdbr-iron-east-01.cleardb.net",
     port: 8889, // 3306 for windows/linux or newer macs
     uname: "b7d9f01e2ae510",
     pword: "5419b4c5", // blank for windows
